@@ -8,6 +8,8 @@ public class ChocolateBoiler {
     private ChocolateBoiler() {
         empty = true;
         boiled = false;
+        System.out.println("Se creo una instancia de ChocolateBoiler");
+
     }
 
     public static ChocolateBoiler getInstance(){

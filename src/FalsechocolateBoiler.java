@@ -5,6 +5,7 @@ public class FalsechocolateBoiler {
     public FalsechocolateBoiler() {
         empty = true;
         boiled = false;
+        System.out.println("Se creo una instancia de FalsechocolateBoiler");
     }
 
     public void fill(){
